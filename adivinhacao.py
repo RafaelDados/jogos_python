@@ -5,7 +5,9 @@ print("Bem vindo ao jogo de adivinhação!")
 print("*********************************")
 #random.seed(100)
 numero_secreto = round(random.randrange(1, 101))
-total_de_tentativas = 5
+total_de_tentativas = 0
+pontos = 1000
+
 
 print("Qual nível de dificuldade deseja jogar?")
 print("(1) Fácil \n(2) Médio \n(3) Difícil")
@@ -22,6 +24,7 @@ else:
 #print(numero_secreto)
 for rodada in range (1, total_de_tentativas + 1):
     print("Tentativa {} de {}".format(rodada, total_de_tentativas))
+
     chute = int(input("Digite um número entre 1 e 100: "))
     print("Você digitou", chute)
 
@@ -34,12 +37,13 @@ for rodada in range (1, total_de_tentativas + 1):
     menor   = chute < numero_secreto
 
     if(acertou):
-        print("Você acertou o número secreto!")
+        print("Você acertou o número secreto!\nSua pontuação {} pontos".format(pontos))
         break
     else:
         if(maior):
             print("Você errou! O seu chute foi maior do que número secreto.")
         elif(menor):
             print("Você errou! O seu chute foi menor do que número secreto.")
+        pontos = pontos - abs(numero_secreto - chute) #a função abs() converte um número negativo para positivo
 
 print("Fim do jogo")
