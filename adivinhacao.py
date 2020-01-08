@@ -4,7 +4,7 @@ print("*********************************")
 print("Bem vindo ao jogo de adivinhação!")
 print("*********************************")
 #random.seed(100)
-numero_secreto = round(random.randrange(1, 101)) #A função round arredendo o número contido na váriavel
+numero_secreto = round(random.randrange(1, 101)) #A função round arredonda o número contido na variável
 total_de_tentativas = 0
 pontos = 1000
 
