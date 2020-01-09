@@ -14,7 +14,7 @@ def jogar():
     print(letras_acertadas)
 
     #enquanto não enforcou e não acertou
-    while(not enforcou and not acertou):
+    while(True):
         # lower() converte toda str para minusculo.
         # upper() para maiusculo.
         # strip() retira os respaços digitados em uma string.
@@ -31,15 +31,19 @@ def jogar():
             tentativas += 1
 
         #Caso as tentativas chegue ao número 6 a váriavel enforcou será False
-        enforcou = tentativas == 6
+        if(tentativas == 6):
+            print("Você perdeu!!")
+            break
 
-        acertou = "_" not in letras_acertadas
+        if("_" not in letras_acertadas):
+            break
+
         if(acertou != True):
             print('Ainda faltam acertar {} letras'.format(letras_faltando))
+
         if(acertou):
             print("Você ganhou!!")
-        else:
-            print("Você perdeu!!")
+
         print(letras_acertadas)
 
     print("Fim do jogo")
