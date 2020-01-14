@@ -4,6 +4,7 @@
     <list default="true" id="d2de28c5-aa40-4325-8058-915a10750d18" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/forca.py" beforeDir="false" afterPath="$PROJECT_DIR$/forca.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/palavras.txt" beforeDir="false" afterPath="$PROJECT_DIR$/palavras.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +40,7 @@
       <recent name="C:\Users\ralfa\Documents\PycharmProjects\jogos" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.exercicios">
+  <component name="RunManager" selected="Python.forca">
     <configuration name="adivinhacao" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="jogos" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -159,21 +160,21 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="790" height="239" key="GridCell.Tab.0.bottom" timestamp="1579012547832">
+    <state width="790" height="585" key="GridCell.Tab.0.bottom" timestamp="1579020521723">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="790" height="239" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1579012547832" />
-    <state width="790" height="239" key="GridCell.Tab.0.center" timestamp="1579012547832">
+    <state width="790" height="585" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1579020521723" />
+    <state width="790" height="585" key="GridCell.Tab.0.center" timestamp="1579020521723">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="790" height="239" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1579012547832" />
-    <state width="790" height="239" key="GridCell.Tab.0.left" timestamp="1579012547832">
+    <state width="790" height="585" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1579020521723" />
+    <state width="790" height="585" key="GridCell.Tab.0.left" timestamp="1579020521723">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="790" height="239" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1579012547832" />
-    <state width="790" height="239" key="GridCell.Tab.0.right" timestamp="1579012547832">
+    <state width="790" height="585" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1579020521723" />
+    <state width="790" height="585" key="GridCell.Tab.0.right" timestamp="1579020521723">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="790" height="239" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1579012547832" />
+    <state width="790" height="585" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1579020521723" />
   </component>
 </project>
